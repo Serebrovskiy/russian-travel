@@ -1,0 +1,26 @@
+@import url(../footer/__nav/footer__nav.css);
+@import url(../footer/__link/footer__link.css);
+@import url(../footer/__copyright/footer__copyright.css);
+
+
+.footer {
+  max-width: 1184px;
+  margin: 42px 48px 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 950px) {
+  .footer {
+    margin: 48px 24px 24px;
+  }
+}
+
+ @media screen and (max-width: 560px) {
+  .footer {
+    flex-direction: column;
+    margin: 24px auto 24px 16px;
+
+  }
+}
