@@ -2,14 +2,21 @@
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang/header__lang.css);
-@import url(./__lang-link/__lang-link_underline/header__lang-link_underline.css);
+@import url(./__lang-link/__lang-link_active/header__lang-link_active.css);
 
 
 .header {
   max-width: 1184px;
-  margin: 28px 48px 0;
+  margin: 0 auto;
+  padding-top: 28px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1290px) {
+  .header {
+    margin: 28px 48px 0;
+  }
 }
 
 @media screen and (max-width: 950px) {
